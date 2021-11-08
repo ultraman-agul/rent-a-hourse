@@ -1,0 +1,119 @@
+.search-box{
+    position: absolute;
+    top: 20px;
+    padding: 0 20px;
+    height: 38px;
+    width: 100%;
+    background-color: transparent;
+    .search{
+        border-radius: 6px;
+        height: 100%;
+        width: 88%;
+        background-color: #fff;
+        line-height: 38px;
+        .location{
+            margin-left: 10px;
+            i{
+                font-size: 12px;
+            }
+            border-right: 1px solid #eee;
+            padding-right: 10px;
+        }
+        .form{
+            color: #999;
+            margin-left: 10px;
+            i{
+                margin-right: 10px;
+            }
+        }
+    }
+    .icon-map{
+        font-size: 30px;
+        color: #fff;
+    }
+}
+
+
+.nav{
+    padding: 10px;
+    div{
+        text-align: center;
+        img{
+            width: 48px;
+        }
+        h2{
+            margin-top: 6px;
+            font-size: 13px;
+        }
+    }
+}
+
+.groups{
+    .group-titles{
+        background-color: #eee;
+        padding: 10px;
+        .more{
+            float: right;
+        }
+    }
+    
+}
+
+.am-grid{
+    background-color: #eee;
+    .am-flexbox{
+        background-color: inherit;
+    }
+    .am-grid-item{
+        background-color: #fff;
+        margin-bottom: 10px;
+        &:first-child{
+            margin-right: 10px;
+        }
+        .group-item{
+            .desc{
+                .group-title{
+                    font-size: 16px;
+                    font-weight: bold;
+                    }
+                    .info{
+                        margin-top: 6px;
+                    }
+                }
+            img{
+                width: 60px;
+            } 
+        }
+    }
+ 
+}
+
+.news-titles{
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.am-wingblank{
+    .news-container{
+        .am-flexbox-align-center{
+            padding: 10px 0;
+            border-bottom: 1px solid #ccc;
+            img{
+                width: 150px;
+                margin-right: 10px;
+            }
+            .desc{
+                height: 115px;
+                padding: 0;
+                border: none;
+                .am-flexbox{
+                    color: #aaa;
+                    width: 100%;
+                    border: none;
+                }
+            }
+        }
+    
+    }
+}

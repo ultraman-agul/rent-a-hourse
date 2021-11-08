@@ -1,0 +1,41 @@
+.cityListBox {
+  height: 100%;
+  padding-top: 45px;
+}
+
+.cityListBox .rowItem .title {
+  padding-left: 20px;
+  font-size: 16px;
+  height: 38px;
+  color: #aaa;
+  line-height: 38px;
+}
+
+.cityListBox .rowItem .itemBox .item {
+  padding-left: 20px;
+  line-height: 50px;
+  font-size: 18px;
+  height: 50px;
+  border-bottom: 1px solid #eee;
+}
+
+.cityIndex {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.cityIndex ul li {
+  font-size: 16px;
+  height: 26px;
+  width: 26px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.cityIndex ul .active-index {
+  background-color: orange;
+  color: #fff;
+  border-radius: 50%;
+}
